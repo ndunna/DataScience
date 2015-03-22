@@ -1,6 +1,6 @@
-# Introduction
+## Introduction
 
-## The script  run_analysis.R performs the 5 steps as described in the project requirement.
+ The script  run_analysis.R performs the 5 steps as described in the project requirement.
 
 
 #Step 0.
@@ -9,16 +9,23 @@
 # Step 1 : Merges Trng and Test datasets in to one dataset.
 
   Read Activity Files (Test as well as Training) and create datasets
+
   Read Subject Files (Test as well as Training) and create datasets
+
   Read Features data Files (Test as well as Training) and create datasets
+
   Concatenate data sets by rows (test and training) into one for Activity, Subject and Features.
 
 # Step 2 Create a list of columns that need to extracted from Data set and use the list to  subset combined data into a separate dataset. 
 
   Set appropriate names to the data set objects.
+
   Combine Subject, Activity and Features data sets/frames into an object Data.
+
   Extract only measurements on the mean() and std deviation() for each measurement.
+
   use escape sequence to code for "(" and ")"
+
   Create a list of names (features, activity and subject) that will be used to extract the data
 
 # Step 3 Labels the data set with descriptive variable names
